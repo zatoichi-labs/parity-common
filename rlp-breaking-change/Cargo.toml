@@ -1,0 +1,10 @@
+[package]
+name = "rlp-breaking-change"
+version = "0.1.0"
+authors = ["Andronik Ordian <write@reusable.software>"]
+edition = "2018"
+
+[dependencies]
+rlp = { version = "0.3" }
+impl-rlp = { version = "0.1.2", path = "../primitive-types/impls/rlp" }
+uint = "0.7"
