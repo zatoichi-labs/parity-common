@@ -23,7 +23,7 @@ hmac = "0.7"
 lazy_static = { version = "1.0", optional = true }
 pbkdf2 = "0.3.0"
 rand = "0.7.2"
-ripemd160 = "0.8.0"
+ripemd160 = "0.9.1"
 rustc-hex = { version = "2.1.0", default-features = false, optional = true }
 scrypt = { version = "0.2.0", default-features = false }
 secp256k1 = { version = "0.19", optional = true, features = ["global-context", "recovery", "rand-std"] }
